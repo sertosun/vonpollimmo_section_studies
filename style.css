@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  height: 100vh;
+  margin-top: 5em;
+}
+
+.box {
+  /* display: flex;
+  justify-content: space-between; */
+  position: relative;
+}
+
+.box1 {
+  /* width: 70%; */
+  margin-left: 2em;
+}
+
+.image {
+  width: 1010px;
+  height: 680px;
+  background-image: url("haus-1_eigentuemer_platform.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box2 {
+  padding: 65px 70px 70px 70px;
+  text-align: left;
+  background-color: #00305e;
+  width: 50% !important;
+  position: absolute;
+  bottom: -190px;
+  right: 50px;
+}
+
+.content_title {
+  margin-bottom: 30px;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: 1px;
+}
+
+.content_article {
+  padding: 0 0 30px 0;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.content_article ul {
+  list-style: none;
+}
+
+.content_article ul li {
+  line-height: 26px;
+  margin-left: 16px;
+  list-style-type: disc;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.bottom button {
+  text-transform: uppercase;
+  margin-right: 2em;
+  outline: none;
+  background: #4e73f5;
+  border-color: #4e73f5;
+  padding: 15px 20px;
+  border-radius: 2px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+}
+
+.bottom button:hover {
+  color: #fff;
+  background: #0f5dc4;
+  border-color: #0f5dc4;
+}
+
+.musteranalyse {
+  display: flex;
+  align-items: center;
+}
+
+.musteranalyse img {
+  width: 20px;
+  aspect-ratio: auto 20 / 12;
+  height: 12px;
+}
+
+.musteranalyse span {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
